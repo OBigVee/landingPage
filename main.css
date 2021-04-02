@@ -1,0 +1,127 @@
+body {
+  /*Background color for entire page*/
+  background-color: rgb(30, 30, 190);
+}
+.img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: 50;
+}
+/* .center {
+  display: block;
+  
+  width: 50%;
+} */
+
+.imagediv{
+text-align: center;
+border-bottom-style: inherit;
+border-width: inherit;
+padding-bottom: 4px;
+padding-top: 4px;
+}
+.topdiv {
+  /*Styling the top "header" for my page*/
+  padding-top: 5px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: RoyalBlue;
+  border-width: 1px;
+  padding-left: 5px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.subtitle {
+  /*Making subtitle font a little bigger*/
+  /*Also using em instead of px for font sizes for more consistent experience for both desktop and mobile devices*/
+  font-size: 1.4em;
+}
+
+.cleardiv {
+  /*A simple div*/
+  /* font-family: Verdana, Geneva, sans-serif; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.boxdiv {
+  /*A blue box with rounded corners div*/
+  background-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: 1px;
+  border-color: CornflowerBlue;
+  margin: 0px 2px 15px 2px;
+  padding: 0px 17px 5px 17px;
+  border-radius: 25px;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: Verdana, Geneva, sans-serif; */
+}
+
+.tablediv {
+  /*A blue div that covers the full widith of the page*/
+  background-color: RoyalBlue;
+  width: 100%;
+  margin: 0px 0px 0px -9px;
+  padding: 2px 9px 0px 0px;
+  color: GhostWhite;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.tablediv h3 {
+  text-align: center;
+}
+
+.tablediv p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+ul{
+  color: whitesmoke;
+}
+li{
+  color: whitesmoke;
+}
+h1 {
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+p {
+  color: whitesmoke ;
+  font-size: 1em;
+}
+
+img {
+  width: 30em;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(249, 248, 255);
+}
+
+li {
+  font-size: 1em;
+}
+
+table {
+  /*puts table in the center of the page*/
+  margin: auto;
+}
+footer{
+  color: black;
+  background-color: whitesmoke;
+}
+a{
+  color: whitesmoke;
+}
